@@ -1,0 +1,95 @@
+body{
+    background-color: #dff9fb;
+}
+.conatiner{
+margin: 4% 35% 5% 35%;
+background-color: #fff;
+
+}
+#header{
+    background-image: url(./2760939.jpg);
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+.icon-refresh{
+    float: right;
+    margin: 15px;
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    font-size: 25px;
+}
+#mydate {
+    color: rgb(255, 118, 117);
+    font-size: 20px;
+    padding: 8px;
+    
+}
+#body{
+    height: 300px;
+    padding: 10px;
+}
+.todo_title{
+    text-align: center;
+    color: #f0932b;
+}
+#bottom{
+padding: 10px;
+border-top: 1px solid #ddf;
+display: flex;
+}
+#icon-add{
+    font-size: 25px;
+    color: red;
+    margin: 8px;
+}
+#todo-input{
+    width: 100%;
+    border: none;
+    padding: 8px;
+    font-size: 16px;
+
+}
+::-webkit-input-placeholder{
+    color: #f0932b;
+}
+img{
+    width: 100%;
+    height: 200px;
+}
+ul {
+    padding: 0px 15px 0px 15px;
+    height: 250px;
+}
+li{
+    list-style-type: none;
+    height: 25px;
+    border-top: 1px solid #ddf;
+    border-bottom: 1px solid #ddf;
+    padding: 5px 10px 0px 10px;
+}
+.linethrough{
+    text-decoration: line-through;
+}
+.fa-check-circle{
+    color: #4cd137;
+    cursor: pointer;
+    font-size: 20px;
+}
+.fa-circle-thin{
+    font-size: 20px;
+    cursor: pointer;
+}
+#icon-delete{
+    float: right;
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+}
+#icon-edit {
+    float: right;
+    font-size: 20px;
+    margin: 2px;
+    color: rgb(186, 220, 88);
+    cursor: pointer;
+}

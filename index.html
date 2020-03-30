@@ -3,9 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript TODO App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Todo App</title>
 </head>
 <body>
-    <h4>Heloo from todo App</h4>
+    <div class="conatiner">
+        <div id="header">
+           <div class="icon-refresh">
+            <i class="fa fa-refresh" aria-hidden="true"></i>
+           </div>
+            <div >
+                <h4 id="mydate"></h4>
+                <!-- Sunday, Mar 22 -->
+            </div>
+        </div>
+        <div id="body">
+            <h4 class="todo_title">TO DO App</h4>
+            <ul id="myList">
+                <!-- <li>
+                    <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                    <span class="linethrough">Task 1</span>
+                    <i class="fa fa-pencil-square-o" aria-hidden="true" id="icon-edit"></i> 
+                    <i class="fa fa-trash-o" aria-hidden="true" id="icon-delete"></i>
+                </li> -->
+                
+            </ul>
+        </div>
+        <div id="bottom">
+            <i class="fa fa-plus-circle" id="icon-add" aria-hidden="true"></i>
+            <input type="text" name="todo-field" id="todo-input" placeholder="Add ToDO" value="">
+        </div>
+
+    </div>
+    <script src="./app.js"></script>
 </body>
 </html>
